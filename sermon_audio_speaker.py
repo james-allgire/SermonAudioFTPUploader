@@ -15,7 +15,7 @@ title_info = audiofile.tag.title
 
 print(artist_info + " " + album_info + " " + title_info)
 
-#fake user agent so sermon audio don't block our api request
+#fake user agent so sermon audio doesn't block our api request
 ua = UserAgent()
 
 #url key and api key log in info to pull sermon info
