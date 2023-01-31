@@ -20,7 +20,7 @@ ua = UserAgent()
 
 #url key and api key log in info to pull sermon info
 url = 'https://api.sermonaudio.com/v1/node/speakers_for_source?sourceID=faithbaptistavon'
-api_key = '0F7F0BC2-0B9F-47C8-B7AA-F2FEF0AEF81D'
+api_key = 'xxxxx-xxxxxxx-xxxxxxx'
 #combines url log in info with a chrome user agent so we can later get the json payload to check if our steam is up 
 hdr = {'X-Api-Key' : api_key,'User-Agent':str(ua.chrome)}
 req = urllib.request.Request(url, headers=hdr)
